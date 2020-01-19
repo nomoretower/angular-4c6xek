@@ -11,3 +11,16 @@ h2 {
   font: italic small-caps normal 13px/150% 'Kalam', cursive;
 }
 
+#blink {
+  animation: blink ls linear infinite;
+}
+  @keyframes blink {
+    from {
+      opacicity: 0;
+    }
+    to {
+      opacicity: 1;
+    }
+  }
+
+
