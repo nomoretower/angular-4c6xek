@@ -7,3 +7,7 @@ h1 {
   color: goldenrod
 }
 
+h2 {
+  font: italic small-caps normal 13px/150% 'Kalam', cursive;
+}
+
