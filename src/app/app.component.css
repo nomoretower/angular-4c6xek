@@ -12,11 +12,11 @@ h2 {
 }
 
 #blink {
-  animation: blink 2s linear infinite;
+  animation: blink 3s linear infinite;
 }
   @keyframes blink {
     from {
-      color: white;
+      color: orange;
     }
     to {
       color: red;
