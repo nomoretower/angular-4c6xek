@@ -16,10 +16,10 @@ h2 {
 }
   @keyframes blink {
     from {
-      opacicity: 0;
+      opacity: 0;
     }
     to {
-      opacicity: 1;
+      opacity: 1;
     }
   }
 
