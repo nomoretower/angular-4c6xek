@@ -23,6 +23,7 @@ h2 {
     }
   }
 
+
 div.table {
 	display: table;
 	border-collapse: collapse;
@@ -36,4 +37,3 @@ div.td {
 	padding: 5px;
   width: 80px;
 }
-
