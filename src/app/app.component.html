@@ -33,7 +33,45 @@
 		</div>
 	</div>
 
-/*
-ist das kommentar?
+<!-- Anfang Kommentar
+  
+*************  html  **************
+  <div id="aDiv"></div>
+  
+*************  css  **************
+* {
+    font-family: Arial, 'Sans Serif';
+}
+}
+#aDiv{
+    background-color: lightgray;
+}
+p {
+    color: #20561E;
+}
+.myClass {
+    font-size: smaller;
+    border:1px solid black;
+    padding:5px;
+    width:30px;
+}
 
-*/
+*************  javascript  **************
+/* set a variable */
+var text;
+var beitrag;
+var zulage;
+beitrag = 99
+zulage = 20
+text = beitrag + zulage
+
+/* get an element */
+var myDivElement = document.getElementById('aDiv');
+
+/* add an attribute */
+myDivElement.setAttribute('class', 'myClass');
+
+/* add content */
+myDivElement.innerHTML = '<p>' + text + '</p>';
+
+  Letzte Zeile des Kommentars -->
