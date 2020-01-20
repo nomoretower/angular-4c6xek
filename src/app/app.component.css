@@ -34,5 +34,6 @@ div.td {
 	display: table-cell;
 	border: thin solid red;
 	padding: 5px;
+  width: 80px;
 }
 
